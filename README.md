@@ -8,7 +8,7 @@ PERCOBAAN 3
   1. Base case: if (tahun == 0)
      Recursion call: 1.11 * hitungLaba(saldo, tahun - 1)
   2. hitungLaba(100000,3)
-     >> 1.11 x hitungLaba(100000,2)
-     >> 1.11 x 1.11 x hitungLaba(100000,1)
-     >> 1.11 x 1.11 x 1.11 x hitungLaba(100000,0)
-     >> 1.11^3 x 100000 = +- 136.763
+     - 1.11 x hitungLaba(100000,2)
+     - 1.11 x 1.11 x hitungLaba(100000,1)
+     - 1.11 x 1.11 x 1.11 x hitungLaba(100000,0)
+     - 1.11^3 x 100000 = +- 136.763
